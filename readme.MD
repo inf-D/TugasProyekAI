@@ -55,7 +55,7 @@ Dataset yang telah dikumpulkan di-<i>train</i> menggunakan algoritma LBPH yang a
 <em>Gambar 4 Kode Training Dataset</em>
 
 ### B. Tahapan Testing
-Testing dilakukan dengan mengecek apakah program yang telah dibuat berhasil mengumpulkan data wajah dari webcam, menyimpan hasil latihan dataset ke dalam file trainer.xml, dan melakukan pengenalan wajah berdasarkan dataset yang telah ditrain.
+Testing dilakukan dengan mengecek apakah program yang telah dibuat berhasil mengumpulkan data wajah dari webcam, menyimpan hasil latihan dataset ke dalam file trainer.yml, dan melakukan pengenalan wajah berdasarkan dataset yang telah ditrain.
 Dari pengujian yang dilakukan, program berhasil membaca data dari webcam, menyimpan hasil latihan dataset, dan melakukan pengenalan wajah melalui webcam.
 <div><a href="https://ibb.co/tCrbmmD"><img src="https://i.ibb.co/cTnNggQ/Screenshot-from-2023-06-11-19-23-30.png" alt="Screenshot-from-2023-06-11-19-23-30" border="0"></a></div>
 <em>Gambar 5 Pengumpulan Data Wajah dari Webcam</em>
