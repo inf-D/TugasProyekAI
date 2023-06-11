@@ -13,6 +13,7 @@ with open("output/names.pkl", "rb") as f:
     names = pickle.load(f)
 
 name = input("Masukkan nama: ")
+Path(f"dataset").mkdir(exist_ok=True)
 Path(f"dataset/{name}").mkdir(exist_ok=True)
 names.append(name)
 id = names.index(name)
