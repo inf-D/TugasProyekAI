@@ -45,35 +45,27 @@ Pengambilan data menggunakan program Python. Program yang dibuat akan meminta ki
 <div><a href="https://ibb.co/TwmXrDM"><img src="https://i.ibb.co/CwhdWpK/Screenshot-from-2023-06-11-18-53-41.png" alt="Screenshot-from-2023-06-11-18-53-41" border="0"></a></div>
 <em>Gambar 2 Kode Pengambilan Data</em>
 <br>
-<br>
-<figure>
-<a href="https://ibb.co/zPtqMck"><img src="https://i.ibb.co/tY1VGfd/Screenshot-from-2023-06-11-19-06-24.png" alt="Screenshot-from-2023-06-11-19-06-24" border="0"></a>
-<em>Gambar 3 Hasil Pengambilan Data Dengan Algoritma Haar Cascade</em></figcaption>
-</figure>
+<div><a href="https://ibb.co/zPtqMck"><img src="https://i.ibb.co/tY1VGfd/Screenshot-from-2023-06-11-19-06-24.png" alt="Screenshot-from-2023-06-11-19-06-24" border="0"></a></div>
+<em>Gambar 3 Hasil Pengambilan Data Dengan Algoritma Haar Cascade</em>
 
 ## 2. PEMBUATAN SISTEM
 ### A. TAHAPAN TRAIN
 Dataset yang telah dikumpulkan di-<i>train</i> menggunakan algoritma LBPH yang ada pada module opencv pada bahasa pemrograman Python. Tiap gambar yang telah dilabel dan diproses pada dataset dimuat dan dilatih menggunakan algoritma yang telah disebutkan, lalu disimpan ke dalam file trainer.yml.
-<figure>
-<a href="https://ibb.co/LpbfhHd"><img src="https://i.ibb.co/12hxJjG/Screenshot-from-2023-06-11-19-15-50.png" alt="Screenshot-from-2023-06-11-19-15-50" border="0"></a>
-<figcaption><em>Gambar 4 Kode Training Dataset</em></figcaption>
-</figure>
+<div><a href="https://ibb.co/LpbfhHd"><img src="https://i.ibb.co/12hxJjG/Screenshot-from-2023-06-11-19-15-50.png" alt="Screenshot-from-2023-06-11-19-15-50" border="0"></a></div>
+<em>Gambar 4 Kode Training Dataset</em>
 
 ### B. Tahapan Testing
 Testing dilakukan dengan mengecek apakah program yang telah dibuat berhasil mengumpulkan data wajah dari webcam, menyimpan hasil latihan dataset ke dalam file trainer.xml, dan melakukan pengenalan wajah berdasarkan dataset yang telah ditrain.
 Dari pengujian yang dilakukan, program berhasil membaca data dari webcam, menyimpan hasil latihan dataset, dan melakukan pengenalan wajah melalui webcam.
-<figure>
-<a href="https://ibb.co/tCrbmmD"><img src="https://i.ibb.co/cTnNggQ/Screenshot-from-2023-06-11-19-23-30.png" alt="Screenshot-from-2023-06-11-19-23-30" border="0"></a>
-<figcaption><em>Gambar 5 Pengumpulan Data Wajah dari Webcam</em></figcaption>
-</figure><br> 
-<figure>
-<a href="https://ibb.co/bN3CBYx"><img src="https://i.ibb.co/xzsBjwy/Screenshot-from-2023-06-11-19-26-25.png" alt="Screenshot-from-2023-06-11-19-26-25" border="0"></a>
-<figcaption><em>Gambar 6 Hasil Train Dataset</em></figcaption>
-</figure><br>
-<figure>
-<a href="https://ibb.co/8BStMMw"><img src="https://i.ibb.co/GJbN77D/Screenshot-from-2023-06-11-19-28-26.png" alt="Screenshot-from-2023-06-11-19-28-26" border="0"></a>
-<figcaption><em>Gambar 7 Pengenalan Wajah melalui Webcam</em></figcaption>
-</figure><br>
+<div><a href="https://ibb.co/tCrbmmD"><img src="https://i.ibb.co/cTnNggQ/Screenshot-from-2023-06-11-19-23-30.png" alt="Screenshot-from-2023-06-11-19-23-30" border="0"></a></div>
+<em>Gambar 5 Pengumpulan Data Wajah dari Webcam</em>
+<br> 
+<div><a href="https://ibb.co/bN3CBYx"><img src="https://i.ibb.co/xzsBjwy/Screenshot-from-2023-06-11-19-26-25.png" alt="Screenshot-from-2023-06-11-19-26-25" border="0"></a></div>
+<em>Gambar 6 Hasil Train Dataset</em>
+<br>
+<div><a href="https://ibb.co/8BStMMw"><img src="https://i.ibb.co/GJbN77D/Screenshot-from-2023-06-11-19-28-26.png" alt="Screenshot-from-2023-06-11-19-28-26" border="0"></a></div>
+<em>Gambar 7 Pengenalan Wajah melalui Webcam</em>
+<br>
 
 Referensi:
 - [Build Your Own Face Recognition Tool With Python oleh Kyle Stratis](https://realpython.com/face-recognition-with-python/)
