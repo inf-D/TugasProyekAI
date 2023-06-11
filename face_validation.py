@@ -1,7 +1,6 @@
 import cv2
 import pickle
 
-print("\nStarting Recognizer....")
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read("trainer/trainer.yml")
 cascadePath = "haarcascade/haarcascade_frontalface_default.xml"
@@ -9,8 +8,7 @@ faceCascade = cv2.CascadeClassifier(cascadePath)
 
 font = cv2.FONT_HERSHEY_SIMPLEX
 
-# Starting realtime video capture
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 cam.set(3, 640)  # set video widht
 cam.set(4, 480)  # set video height
 
@@ -53,7 +51,5 @@ while True:
     if k == 27:
         break
 
-    # Do a bit of cleanup
-print("\nExiting Recognizer.")
 cam.release()
 cv2.destroyAllWindows()
