@@ -45,6 +45,7 @@ Pengambilan data menggunakan program Python. Program yang dibuat akan meminta ki
 <div><a href="https://ibb.co/TwmXrDM"><img src="https://i.ibb.co/CwhdWpK/Screenshot-from-2023-06-11-18-53-41.png" alt="Screenshot-from-2023-06-11-18-53-41" border="0"></a></div>
 <em>Gambar 2 Kode Pengambilan Data</em>
 <br>
+<div></div>
 <div><a href="https://ibb.co/zPtqMck"><img src="https://i.ibb.co/tY1VGfd/Screenshot-from-2023-06-11-19-06-24.png" alt="Screenshot-from-2023-06-11-19-06-24" border="0"></a></div>
 <em>Gambar 3 Hasil Pengambilan Data Dengan Algoritma Haar Cascade</em>
 
@@ -60,12 +61,15 @@ Dari pengujian yang dilakukan, program berhasil membaca data dari webcam, menyim
 <div><a href="https://ibb.co/tCrbmmD"><img src="https://i.ibb.co/cTnNggQ/Screenshot-from-2023-06-11-19-23-30.png" alt="Screenshot-from-2023-06-11-19-23-30" border="0"></a></div>
 <em>Gambar 5 Pengumpulan Data Wajah dari Webcam</em>
 <br> 
+<div></div>
 <div><a href="https://ibb.co/bN3CBYx"><img src="https://i.ibb.co/xzsBjwy/Screenshot-from-2023-06-11-19-26-25.png" alt="Screenshot-from-2023-06-11-19-26-25" border="0"></a></div>
 <em>Gambar 6 Hasil Train Dataset</em>
 <br>
+<div></div>
 <div><a href="https://ibb.co/8BStMMw"><img src="https://i.ibb.co/GJbN77D/Screenshot-from-2023-06-11-19-28-26.png" alt="Screenshot-from-2023-06-11-19-28-26" border="0"></a></div>
 <em>Gambar 7 Pengenalan Wajah melalui Webcam</em>
 <br>
+<div></div>
 
 Referensi:
 - [Build Your Own Face Recognition Tool With Python oleh Kyle Stratis](https://realpython.com/face-recognition-with-python/)
