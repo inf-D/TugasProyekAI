@@ -42,12 +42,13 @@ python3 face_validation.py
 ## 1. PENGAMBILAN DATA
 Pengambilan data menggunakan program Python. Program yang dibuat akan meminta kita untuk memasukkan nama, lalu membuka webcam dan mendeteksi wajah menggunakan algoritma haar cascade. Data wajah yang didapatkan akan dilabel ke dalam folder berdasarkan nama yang dimasukkan, kemudian mengalami pemrosesan seperti konversi warna ke grayscale dan <i>cropping</i> 
 
-<a href="https://ibb.co/TwmXrDM"><img src="https://i.ibb.co/CwhdWpK/Screenshot-from-2023-06-11-18-53-41.png" alt="Screenshot-from-2023-06-11-18-53-41" border="0"></a>
-<div><em>Gambar 2 Kode Pengambilan Data</em></div>
+<div><a href="https://ibb.co/TwmXrDM"><img src="https://i.ibb.co/CwhdWpK/Screenshot-from-2023-06-11-18-53-41.png" alt="Screenshot-from-2023-06-11-18-53-41" border="0"></a></div>
+<em>Gambar 2 Kode Pengambilan Data</em>
+<br>
 <br>
 <figure>
 <a href="https://ibb.co/zPtqMck"><img src="https://i.ibb.co/tY1VGfd/Screenshot-from-2023-06-11-19-06-24.png" alt="Screenshot-from-2023-06-11-19-06-24" border="0"></a>
-<figcaption><em>Gambar 3 Hasil Pengambilan Data Dengan Algoritma Haar Cascade</em></figcaption>
+<em>Gambar 3 Hasil Pengambilan Data Dengan Algoritma Haar Cascade</em></figcaption>
 </figure>
 
 ## 2. PEMBUATAN SISTEM
